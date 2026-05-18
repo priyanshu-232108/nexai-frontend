@@ -7,7 +7,7 @@ const formStatus = document.getElementById('formStatus');
 const revealElements = document.querySelectorAll('.reveal');
 const canvas = document.getElementById('particle-canvas');
 const ctx = canvas.getContext('2d');
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://nexai-solutions-production.up.railway.app/api';
 
 const services = [
   'AI Development',
